@@ -4,38 +4,38 @@
  xsi:noNamespaceSchemaLocation="emp.xsd"> 
   <Employee>
       <Emp-id>1</Emp-id>
-    <Emp-name>Ram</Emp-name>
-    <Emp-age>23</Emp-age>
+    <Emp-name>Ram Kumar</Emp-name>
+    <Emp-age>56</Emp-age>
     <Emp-salary>60000</Emp-salary>
     <Emp-emailid>abc@gmail.com</Emp-emailid>
-    <Emp-phonenum>9876432107</Emp-phonenum>
+    <Emp-phonenum>8764321907</Emp-phonenum>
     <Emp-designation>HR</Emp-designation>
   </Employee>
   <Employee>
     <Emp-id>2</Emp-id>
-    <Emp-name>Ram</Emp-name>
-    <Emp-age>23</Emp-age>
-    <Emp-salary>60000</Emp-salary>
+    <Emp-name>Suresh Singh</Emp-name>
+    <Emp-age>32</Emp-age>
+    <Emp-salary>160000</Emp-salary>
     <Emp-emailid>abc@gmail.com</Emp-emailid>
-    <Emp-phonenum>9876432107</Emp-phonenum>
-    <Emp-designation>HR</Emp-designation>
+    <Emp-phonenum>9876467107</Emp-phonenum>
+    <Emp-designation>Tester</Emp-designation>
   </Employee>
   <Employee>
     <Emp-id>3</Emp-id>
-    <Emp-name>Ram</Emp-name>
-    <Emp-age>23</Emp-age>
-    <Emp-salary>60000</Emp-salary>
+    <Emp-name>Soumesh Dinda</Emp-name>
+    <Emp-age>24</Emp-age>
+    <Emp-salary>50000</Emp-salary>
     <Emp-emailid>abc@gmail.com</Emp-emailid>
-    <Emp-phonenum>9876432107</Emp-phonenum>
-    <Emp-designation>HR</Emp-designation>
+    <Emp-phonenum>7876432165</Emp-phonenum>
+    <Emp-designation>Analyst</Emp-designation>
   </Employee>
   <Employee>
     <Emp-id>4</Emp-id>
-    <Emp-name>Ram</Emp-name>
-    <Emp-age>23</Emp-age>
-    <Emp-salary>60000</Emp-salary>
+    <Emp-name>Rahul Shaw</Emp-name>
+    <Emp-age>45</Emp-age>
+    <Emp-salary>100000</Emp-salary>
     <Emp-emailid>abc@gmail.com</Emp-emailid>
-    <Emp-phonenum>9876432107</Emp-phonenum>
-    <Emp-designation>HR</Emp-designation>
+    <Emp-phonenum>8476432168</Emp-phonenum>
+    <Emp-designation>Designer</Emp-designation>
   </Employee>
 </Company>

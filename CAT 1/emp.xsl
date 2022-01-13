@@ -41,10 +41,10 @@
 		                        </td>
 		                        <td>
 		                        	<xsl:choose>
-		                        		<xsl:when test="Emp-age &gt; 50">Associate Project manager</xsl:when>
-									    <xsl:when test="Emp-age &gt;40 and Emp-age &lt;49">Team Leader</xsl:when>
-									    <xsl:otherwise>Developer</xsl:otherwise>
-							        </xsl:choose>
+		                                 <xsl:when test="Emp-age &gt; 50">Associate Project manager<xsl:value-of select="promotion"/></xsl:when>
+						 <xsl:when test="Emp-age &gt;40 and Emp-age &lt;49">Team Leader<xsl:value-of select="promotion"/></xsl:when>
+						 <xsl:otherwise>Developer<xsl:value-of select="promotion"/></xsl:otherwise>
+						</xsl:choose>
 						        </td>
 					    </tr>
 					    </xsl:for-each>

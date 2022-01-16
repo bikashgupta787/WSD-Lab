@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="School">        
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Student" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+                            <xs:element name="Student-id" type="xs:integer"/>
+							<xs:element name="Student-name" type="xs:string"/>
+							<xs:element name="Student-age" type="xs:integer"/>
+							<xs:element name="Student-class" type="tno"/>
+                            <xs:element name="Student-sec" type="xs:string"/>
+							<xs:element name="Student-emailid" type="xs:string"/>
+							<xs:element name="Student-phonenum" type="xs:integer"/>
+							
+						</xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+             </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tno">
+    	<xs:restriction base="xs:integer">
+    	<xs:minInclusive value="01"/>
+    	<xs:maxExclusive value="12"/>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

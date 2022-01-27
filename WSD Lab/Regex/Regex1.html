@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  
+</head>
+<body>
+    <header>
+        <div class = "header">
+            <img src = school.jpg alt="logo">
+        <h1>Xaviers School</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href=>Admissions</a>
+        <a href=>Library</a>
+        <a href=>Student Portal</a>
+        <a href=>Careers</a>
+    </nav>
+   <section>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>Create your new account</h4>
+       <form action="">
+           <div>
+               <label for="sname">Student-Name</label>
+               <input type="sname" id="sname" placeholder="Student-Name">
+               <span></span>
+           </div>
+           <div>
+               <label for="email">Email</label>
+               <input type="email" id="email" placeholder="Email-id">
+               <span></span>
+           </div>
+           <div>
+               <label for="number">Phone-Number</label>
+               <input type="number" id="number" placeholder="Phone-Number">
+               <span></span>
+           </div>
+           <div>
+               <label for="pass">Password</label>
+               <input type="pass" id="pass" placeholder="Password">
+               <span></span>
+           </div> 
+           <button type="submit"> Submit </button> 
+       </form>
+       </div>
+   </section> 
+   <p>
+    By clicking the Sign Up button,you agree to our <br />
+    <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+  </p>
+</div>
+<p class="para-2">
+  Already have an account? <a href="log.html">Login here</a>
+</p>
+<footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">&copy; 2021</a>
+</body>
+</html>
+<script>
+    var sname=document.getElementById('sname');
+    var email=document.getElementById('email');
+    var number=document.getElementById('number');
+    var pass=document.getElementById('pass');
+    var span=document.getElementsByTagName('span');
+    sname.onkeydown=function()
+    {
+       
+       const regname= /^[A-Z]+[a-zA-Z]+$/;
+       if(regname.test(sname.value))
+       {
+         span[0].innerText="Your name is Valid";
+         span[0].style.color="lime";  
+       }
+       else{
+           span[0].innerText="Invalid name";
+           span[0].style.color="red";
+       }}
+
+    email.onkeydown=function()
+    {
+       
+       const regex2= /^([a-z0-9\.-]+)@([a-z0-9]+)\.([in])$/;
+       if(regex2.test(email.value))
+       {
+         span[1].innerText="Your Email is Valid";
+         span[1].style.color="lime";  
+       }
+       else{
+           span[1].innerText="Invalid Email Id";
+           span[1].style.color="red";
+       }}
+       number.onkeydown=function()
+       {
+          const regnum=/^[0-9]{9}$/;
+          if(regnum.test(number.value))
+       {
+         span[2].innerText="Your Number is Valid";
+         span[2].style.color="lime";  
+       }
+       else{
+           span[2].innerText="Invalid Phone Number";
+           span[2].style.color="red";
+       }   
+       }
+       pass.onkeydown=function()
+       {
+          const regpass=/(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{7,})/;
+          if(regpass.test(pass.value))
+       {
+         span[3].innerText="Password Valid";
+         span[3].style.color="lime";  
+       }
+       else{
+           span[3].innerText="Password must conatain(Ucase,Lcase,Number,Schar)";
+           span[3].style.color="red";
+       }   
+       }
+</script>

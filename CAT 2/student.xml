@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stu.xsl"?>
+<CHRIST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="stu.xsd"> 
+  <Computer-Science>
+    <Stu-name>Ram Kumar</Stu-name>
+    <Stu-university>Christ University</Stu-university>
+    <Stu-emailid>RKumar@christ.in</Stu-emailid>
+    <Stu-phonenum>8764321907</Stu-phonenum>
+  </Computer-Science>
+  <Computer-Science>
+    <Stu-name>Satyam Singh</Stu-name>
+    <Stu-university>Jain University</Stu-university>
+    <Stu-emailid>Ssingh@jain.in</Stu-emailid>
+    <Stu-phonenum>8764321784</Stu-phonenum>
+  </Computer-Science>
+  <Computer-Science>
+    <Stu-name>Reema Sah</Stu-name>
+    <Stu-university>Gitam University</Stu-university>
+    <Stu-emailid>RSah@gitam.in</Stu-emailid>
+    <Stu-phonenum>8603321907</Stu-phonenum>
+  </Computer-Science>
+</CHRIST>

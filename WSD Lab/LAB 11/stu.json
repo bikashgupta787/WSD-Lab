@@ -1,0 +1,7 @@
+{"stu":[
+    {"id":1, "name":"Abhishek Singh", "age":20, "gender":"male", "course":"science", "address":"kolkata","grade":"A"},
+    {"id":2, "name":"Akash Singh", "age":19, "gender":"male", "course":"science", "address":"patna","grade":"A+"},
+    {"id":3, "name":"Shreya Mishra", "age":20, "gender":"female", "course":"commerce", "address":"Hyderabad","grade":"B"},
+    {"id":4, "name":"Rishab Jha", "age":21, "gender":"male", "course":"science", "address":"Prayagraj","grade":"B+"},
+    {"id":5, "name":"Aditi Sah", "age":20, "gender":"female", "course":"commerce", "address":"Punjab","grade":"A"}
+]}

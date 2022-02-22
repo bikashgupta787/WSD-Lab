@@ -1,0 +1,12 @@
+{"books":[
+    {"id":1, "name":"Abhishek Singh", "course":"MCA","class":"1MCA"},
+    {"id":2, "name":"Akash Singh", "course":"MBA","class":"2MBA"},
+    {"id":3, "name":"Rashmi Raj", "course":"BCA","class":"3BCA"},
+    {"id":4, "name":"Shreya Singh", "course":"BCom","class":"2BCOM"},
+    {"id":5, "name":"KL Rahul", "course":"MSC","class":"1MSC"},
+    {"id":6, "name":"Shikhar Dhawan", "course":"MCA","class":"2MCA"},
+    {"id":7, "name":"Dinesh Karthik", "course":"BBA","class":"1BBA"},
+    {"id":8, "name":"Rahul Chahar", "course":"BCom","class":"3BCOM"},
+    {"id":9, "name":"Hardik Pandya", "course":"BSC","class":"3BSC"},
+    {"id":10, "name":"Deepak Chahar", "course":"BCA","class":"1MCA"}
+]}
